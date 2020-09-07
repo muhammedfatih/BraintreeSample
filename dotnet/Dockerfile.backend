@@ -1,0 +1,6 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 as build-project
+WORKDIR /app
+RUN git clone https://github.com/muhammedfatih/BraintreeSample.BackEnd.git .
+RUN dotnet restore
+RUN dotnet publish -c Release -o /publish
+ENTRYPOINT dotnet /publish/BraintreeSample.API.dll
