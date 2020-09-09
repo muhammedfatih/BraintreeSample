@@ -38,6 +38,6 @@ Frontend project code was at: https://github.com/muhammedfatih/BraintreeSample.F
 
 * If you are not connect github via ssh, you should modify dotnet/Dockerfile.frontend file 11th line and dotnet/Dockerfile.backend file 3th line according to your github credentials.
 
-* (Only for first time run), connect MySQL (**localhost:5003**) with your favorite MySQL client, and import dbcreate.sql file.
+* (Only for first time run), connect MySQL (**localhost:5003**) (**with credential root/root**) with your favorite MySQL client, and import dbcreate.sql file.
 
 Project will serve with address: **localhost:5004**
